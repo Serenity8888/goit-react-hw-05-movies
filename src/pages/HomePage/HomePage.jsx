@@ -19,7 +19,7 @@ const HomePage = () => {
 
   return (
     <div>
-      <h2>Trending Movies</h2>
+      <h2 style={{ textAlign: 'center' }}>Trending Movies</h2>
       {trendingMovies.length === 0 ? (
         <Loader />
       ) : (
